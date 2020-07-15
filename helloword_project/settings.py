@@ -14,7 +14,7 @@ SECRET_KEY = 'ja_bb=i=4!c8%&r020=a^t*188%9%0q9gib=uhb&vt%=$f*5#_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition

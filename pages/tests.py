@@ -8,4 +8,4 @@ class SimpleTests(SimpleTestCase):
     def test_about_page_statuss_code(self):
         response = self.client.get('/')
         self.assertEqual(response.status_code, 200)
-        
+
