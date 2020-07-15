@@ -1,5 +1,10 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Homepage</h1>
+<h1>Message board homepage</h1>
+<ul>
+    {% for page in all_pages_list %}
+    <li>{{ page }}</li>
+    {% endfor %}
+</ul>
 {% endblock content %}
